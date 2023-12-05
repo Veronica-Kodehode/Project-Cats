@@ -1,0 +1,39 @@
+
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+
+}
+
+.Names {
+  
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  font-size: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #574975 ;
+  color: white;
+  
+ 
+
+}
+
+.names-wrap{
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.images {
+  width: 20%;
+  height: 20%;
+}
