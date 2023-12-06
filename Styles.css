@@ -1,39 +1,50 @@
+* {
+}
+
+.header {
+  background-color: beige;
+  text-align: center;
+}
+.footer {
+  background-color: beige;
+  text-align: center;
+}
 
 body {
   background-color: aquamarine;
 }
 
 h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
 
+p {
+  font-size: larger;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  color: #197919;
 }
 
 .Names {
-  
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
   border: 2px solid black;
   font-size: 24px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: auto;
-  margin-right: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   padding: 10px;
   border-radius: 10px;
-  background-color: #574975 ;
+  background-color: #574975;
   color: white;
-  
- 
-
 }
 
-.names-wrap{
+.Cats {
+  margin: 0 auto;
+  margin-bottom: 30px;
   display: flex;
-  justify-content: center;
-  
-
-}
-
-.images {
-  width: 20%;
-  height: 20%;
+  flex-direction: column;
+  max-width: 500px;
 }
